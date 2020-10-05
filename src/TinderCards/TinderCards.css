@@ -1,0 +1,37 @@
+.single_card {
+  position: relative;
+  width: 500px;
+  padding: 2px;
+  margin-top: 50px;
+  max-width: 85vw;
+  height: 50vh;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid red; */
+}
+
+.infoBox {
+  border-bottom: solid;
+  border-width: 72.5px;
+  border-color: white;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+}
+
+.tinderCards {
+  position: absolute;
+}
+
+.tinderCards__cardContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5vh;
+}
+
+.tinderCards__info {
+  font-size: 18.5px;
+  position: absolute;
+  bottom: -50px;
+}

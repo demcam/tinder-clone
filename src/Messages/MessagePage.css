@@ -1,0 +1,59 @@
+.messagePage__messages {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.messagePage__text {
+  margin-left: 10px;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.messagePage__match {
+  text-align: center;
+  padding: 20px;
+  color: gray;
+}
+
+.messagePage__userText {
+  margin-left: auto;
+  background-color: darkturquoise;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.messagePage__sendMessage {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 2.5px;
+  border-top: 1px solid lightgray;
+}
+
+.messagePage__inputField {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.messagePage__sendButton {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 12.5px;
+  border: none;
+  background-color: white !important;
+  cursor: pointer;
+  color: #ff5e60;
+  font-weight: 700;
+}
+
+.messagePage__sendButton:hover {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px;
+  color: #fc3177;
+}
